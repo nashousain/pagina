@@ -1,0 +1,121 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #0e0d0d;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.welcome {
+    padding: 80px 20px 40px;
+    background-color: #811509;
+    color: #fff;
+    text-align: center;
+}
+
+.menu, .gallery, .contact {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.menu .menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu .menu-item {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.gallery .gallery-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery .gallery-images img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #580901;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+<header>
+    <div class="container">  
+        <div class="logo">
+            <img src="Red Illustrative Meat Cutter Knife Restaurant Logo.ico" alt="Logo Restaurante Delicioso" style="width: 100px; height: auto;">
+        </div>
+        <h1>Restaurante a la parrilla</h1>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
